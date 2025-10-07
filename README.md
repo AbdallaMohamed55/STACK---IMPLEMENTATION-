@@ -34,7 +34,7 @@ It can be implemented using either arrays or linked lists.
 
    * Syntax parsing and backtracking algorithms
 
-### Algorithm : Stack Implementation using Array
+## Algorithm : Stack Implementation using Array
 
 Step 1:
 
@@ -137,9 +137,9 @@ Step 9:
 
 
 
-## Procedure:
+# Procedure:
 
-  i/Open a C++ compiler and create a new file.
+  i/ Open a C++ compiler and create a new file.
 
   ii/ Write the above code and save it as stack_array.cpp.
 
