@@ -34,20 +34,122 @@ It can be implemented using either arrays or linked lists.
 
    * Syntax parsing and backtracking algorithms
 
+### Algorithm : Stack Implementation using Array
+
+Step 1:
+
+      * Start the program.
+
+Step 2:
+
+      * Define a constant SIZE = 5 for the maximum size of the stack.
+
+Step 3:
+
+    Create a class Stack with the following members:
+
+            * arr[SIZE] → an integer array to store stack elements.
+
+            * top → an integer variable to keep track of the top element index.
+
+Step 4:
+
+          Initialize the constructor:
+             *  Set top = -1 to indicate the stack is initially empty.
+
+Step 5:
+
+    Define the Push() function:
+
+       1. Check if top == SIZE - 1.
+
+           * If true, print "Stack Overflow!" and return.
+
+       2. Otherwise:
+
+             * Increment top by 1.
+
+             * Insert the element into arr[top].
+
+             * Display message <value> pushed into stack.
+
+Step 6:
+
+    Define the Pop() function:
+
+      1. Check if top == -1.
+
+         * If true, print "Stack Underflow!" and return.
+
+      2. Otherwise:
+
+           * Print arr[top] as the popped element.
+
+           * Decrement top by 1.
+
+Step 7:
+
+    Define the Display() function:
+
+      1. Check if top == -1.
+
+           * If true, print "Stack is empty." and return.
+
+      2. Otherwise:
+
+           * Print "Stack elements:".
+
+           * Loop from i = top down to 0, displaying arr[i].
+
+Step 8:
+
+     In the main() function:
+
+        1. Create a Stack object s.
+
+        2. Perform the following operations:
+
+            * s.push(10)
+
+            * s.push(20)
+
+            * s.push(30)
+
+            * s.display()
+
+            * s.pop()
+ 
+            * s.display()
+
+            * s.push(40)
+
+            * s.push(50)
+
+            * s.push(60) → triggers overflow.
+
+            * s.display()
+
+            * Perform multiple pop() operations to trigger underflow.
+
+Step 9:
+
+      * End the program.
+
+
 
 ## Procedure:
 
-    i/Open a C++ compiler and create a new file.
+  i/Open a C++ compiler and create a new file.
 
-    ii/ Write the above code and save it as stack_array.cpp.
+  ii/ Write the above code and save it as stack_array.cpp.
 
-    iii/ Compile the code to remove syntax errors.
+  iii/ Compile the code to remove syntax errors.
 
-    iv/ Run the program.
+  iv/ Run the program.
   
-    v/ Test by choosing different menu options (Push, Pop, Display).
+  v/ Test by choosing different menu options (Push, Pop, Display).
 
-    vi/ Observe the stack operations and output.
+  vi/ Observe the stack operations and output.
 
 
 # Conclusion 
